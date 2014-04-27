@@ -272,11 +272,13 @@ hr {
     vertical-align: middle;
     margin-left: 10px; }
   .game-message.game-won {
-    background: rgba(237, 194, 46, 0.5);
+    background: #555;/*rgba(237, 194, 46, 0.5);*/
     color: #f9f6f2; }
     .game-message.game-won a.keep-playing-button {
+      color: #f9f6f2;
       display: inline-block; }
   .game-message.game-won, .game-message.game-over {
+    color: #f9f6f2;
     display: block; }
     .game-message.game-won p, .game-message.game-over p {
       -webkit-animation: slide-up 1.5s ease-in-out 2500ms;
@@ -741,6 +743,7 @@ hr {
       .game-message.game-won a.keep-playing-button {
         display: inline-block; }
     .game-message.game-won, .game-message.game-over {
+      color: #f9f6f2;
       display: block; }
       .game-message.game-won p, .game-message.game-over p {
         -webkit-animation: slide-up 1.5s ease-in-out 2500ms;
