@@ -312,7 +312,7 @@ hr {
   margin-right: 15px;
   float: left;
   border-radius: 3px;
-  background: #ddd;/*rgba(238, 228, 218, 0.35);*/ }
+  background: #eee;/*rgba(238, 228, 218, 0.35);*/ }
   .grid-cell:last-child {
     margin-right: 0; }
 
@@ -638,7 +638,7 @@ hr {
 
   .container {
     width: 280px;
-    margin: 0 auto; }
+    margin: 0 auto;}
 
   .score-container, .best-container {
     margin-top: 0;
