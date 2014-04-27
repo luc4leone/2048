@@ -621,6 +621,9 @@ hr {
     display: inline-block;
     vertical-align: middle; }
 
+
+
+
 @media screen and (max-width: 520px) {
   html, body {
     font-size: 15px; }
@@ -640,20 +643,22 @@ hr {
   .score-container, .best-container {
     margin-top: 0;
     padding: 15px 10px;
-    min-width: 40px; }
+    min-width: 30px; }
 
   .heading {
     margin-bottom: 10px; }
 
   .game-intro {
-    width: 100%;
+    width: 48%;
     display: block;
     box-sizing: border-box;
     line-height: 1.65; }
 
+/*    .above-game {float: left;}*/
+
   .restart-button, .retry-button {
     background: #555;
-    width: 42%;
+    width: 100%;
     padding: 0;
     display: block;
     box-sizing: border-box;
@@ -671,7 +676,7 @@ hr {
     -ms-user-select: none;
     -ms-touch-action: none;
     touch-action: none;
-    background: #555;/*#1e6477*/
+    background: #fff;/*#1e6477*/
     border-radius: 6px;
     width: 280px;
     height: 280px;
